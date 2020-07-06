@@ -1,3 +1,4 @@
+ 
 # Crawler Samples
 This is a `PuppeteerSharp` + `AngleSharp` crawler console app samples, used `C# 7.1` coding and dotnet core build.
 
@@ -30,3 +31,6 @@ Author: [Allen](http://vallen.cnblogs.com)
 
 # License
 MIT
+=======
+# CrawlerSamples
+>>>>>>> 52f85e065d3754779d33bc2d7 [LICENSE](LICENSE) 36c2c0fe1fe72e9
