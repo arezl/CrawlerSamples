@@ -1,0 +1,22 @@
+﻿GET /api/webApi/dataservice/query/comp/compPerformanceListSys?qy_id=060607000601040406060301070F02050F07&pg=0&pgsz=15 HTTP/1.1
+Host: jzsc.mohurd.gov.cn
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+timeout: 30000
+accessToken: jkFXxgu9TcpocIyCKmJ+tfpxe/45B9dbWMUXhdY7vLU+8HJCG9txdorhwVbyixMphpUUKvcMtoMqfGfwdLCb8g==
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Referer: http://jzsc.mohurd.gov.cn/data/company/detail?id=060607000601040406060301070F02050F07
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: Hm_lvt_b1b4b9ea61b6f1627192160766a9c55c=1599654863; Hm_lpvt_b1b4b9ea61b6f1627192160766a9c55c=1599662330
+
+
+el-table__row
+#pane-perInfo > div > div.el-table.data-table.el-table--fit.el-table--striped.el-table--enable-row-hover.el-table--enable-row-transition > div.el-table__body-wrapper.is-scrolling-none > table > tbody > tr
+
+
+.el-table__body-wrapper
+"1设计资质A236006561\n        工程设计市政行业道路工程专业丙级\n      2019-05-292024-05-29江西省住房和城乡建设厅证书信息2A336006568新余市住房和城乡建设局证书信息"
+
+//思路 考虑加个 wile循环 ，如果有dialog和 验证 就一直wile;直到没有。
+#app > div > header > div.el-dialog__wrapper > div

@@ -26,6 +26,7 @@ namespace CrawlerSamples
         //   private const int ChromiumRevision = 735830;
 
         private static async Task Main(string[] args)
+
         {
             //    await new BrowserFetcher().DownloadAsync(ChromiumRevision);
             //Download chromium browser revision package
@@ -77,7 +78,7 @@ namespace CrawlerSamples
 
         private static async Task<string> TestPuppeteerSharp()
         {
-            RunnerBase runnerInfo = new 汽车之家();
+            RunnerBase runnerInfo = new ToubiaowangCrawler();
             var chrom = @".local-chromium\Win64-735830\chrome.exe";
             if (File.Exists(chrom))
             {
@@ -119,10 +120,10 @@ namespace CrawlerSamples
             #region Dispose resources
 
             //Close tab page
-            await page.CloseAsync();
+          //  await page.CloseAsync();
 
             //Close headless browser, all pages will be closed here.
-            await browser.CloseAsync();
+          //  await browser.CloseAsync();
 
             #endregion Dispose resources
 
